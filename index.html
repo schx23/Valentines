@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="./styles.css">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
     </head> 
     <body>
         <div class="container">
@@ -14,7 +15,7 @@
             </div>
             <div class = "buttons">
                 <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
-                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">Nu</button>
+                <button class="btn" id="noButton" style="position: absolute;" onmouseover="moveButton()" onclick="moveButton()">Nu</button>
                 <script>
                     function nextPage() {
                         window.location.href = "yes.html";
